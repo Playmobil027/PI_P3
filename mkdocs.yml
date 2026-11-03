@@ -1,0 +1,24 @@
+site_name: Git i GitHub
+site_description: Guia bàsica de Git i GitHub
+site_author: Pepe Llopis
+site_url: https://playmobil027.github.io/PI_P3/
+repo_url: https://github.com/Playmobil027/PI_P3
+
+nav:
+  - Inici: index.md
+  - Git:
+    - Instal·lació: git/instalacio.md
+    - Ordres bàsiques: git/ordres.md
+  - GitHub:
+    - Repositori remot: github/repositori.md
+    - GitHub Pages: github/pages.md
+
+theme:
+  name: 'material'
+  language: ca
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
