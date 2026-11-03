@@ -1,21 +1,24 @@
-site_name: Git i GitHub
-site_description: Guia bàsica de Git i GitHub
+site_name: Curses de MotoGP
+site_description: Guia bàsica de les curses de MotoGP
 site_author: Pepe Llopis
 site_url: https://playmobil027.github.io/PI_P3/
 repo_url: https://github.com/Playmobil027/PI_P3
 
 nav:
   - Inici: index.md
-  - Git:
-    - Instal·lació: git/instalacio.md
-    - Ordres bàsiques: git/ordres.md
-  - GitHub:
-    - Repositori remot: github/repositori.md
-    - GitHub Pages: github/pages.md
+  - Campionat:
+    - Categories: campionat/categories.md
+    - Cap de setmana de cursa: campionat/cap-de-setmana.md
+  - Reglament:
+    - Punts: reglament/punts.md
+    - Banderes: reglament/banderes.md
 
 theme:
   name: 'material'
   language: ca
+  palette:
+    primary: red
+    accent: red
 
 markdown_extensions:
   - admonition

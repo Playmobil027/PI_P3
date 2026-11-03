@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" font-family="Arial, sans-serif" font-size="16">
+  <rect x="10" y="30" width="170" height="60" fill="#ffebee" stroke="#d32f2f"/>
+  <text x="95" y="66" text-anchor="middle">Divendres</text>
+  <rect x="215" y="30" width="170" height="60" fill="#ffebee" stroke="#d32f2f"/>
+  <text x="300" y="66" text-anchor="middle">Dissabte</text>
+  <rect x="420" y="30" width="170" height="60" fill="#ffebee" stroke="#d32f2f"/>
+  <text x="505" y="66" text-anchor="middle">Diumenge</text>
+  <path d="M180 60H215M385 60H420" stroke="#333" stroke-width="2"/>
+</svg>
